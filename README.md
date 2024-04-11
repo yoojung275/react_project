@@ -157,7 +157,40 @@ const App = () => {
 };
 
 export default App;
+
 ```
+
+# 레이아웃 구성
+
+- src/layouts/MainLayout.js
+- src/outlines/Header.js
+- src/outlines/Footer.js
+
+# 라우팅 구성
+
+## 설정
+
+- src/index.js : BrowserRouter 컴포넌트로 감싸기
+
+```jsx
+...
+
+import { BrowserRouter } from 'react-router-dom';
+
+...
+
+root.render(
+  <React.StrictMode>
+    <HelmetProvider>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </HelmetProvider>
+  </React.StrictMode>,
+);
+
+```
+
 
 # 레이아웃 구성
 
@@ -189,6 +222,7 @@ root.render(
 );
 ```
 
+
 # 메인페이지
 
 - /
@@ -209,6 +243,7 @@ root.render(
 - commons/pages/Error.js
 - commons/components/ErrorDisplay.js
 
+
 #스타일링
 
 ## 공통 스타일 : src/index.css
@@ -217,3 +252,4 @@ root.render(
 - 스타일 초기화
 - 기준 폰트 사이즈 : styles/fontsize.js / small, normal, medium, big, extraBig
 - 기준 컬러 : Primary, Secondary, Success, Danger, Warning, Info, Light, Dark
+
