@@ -18,6 +18,7 @@ class ErrorPage extends Component {
   render() {
     const { children } = this.props;
     const { message } = this.state;
+
     return message ? <ErrorDisplay>{message}</ErrorDisplay> : children;
   }
 }
