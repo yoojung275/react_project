@@ -138,6 +138,7 @@ import { useTranslation } from 'react-i18next';
 
 const App = () => {
   const { t, i18n } = useTranslation();
+
   return (
     <>
       <Helmet>
@@ -157,6 +158,7 @@ const App = () => {
 };
 
 export default App;
+
 ```
 
 # 레이아웃 구성
@@ -187,6 +189,7 @@ root.render(
     </HelmetProvider>
   </React.StrictMode>,
 );
+
 ```
 
 # 메인페이지
