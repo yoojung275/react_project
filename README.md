@@ -157,7 +157,6 @@ const App = () => {
 };
 
 export default App;
-
 ```
 
 # 레이아웃 구성
@@ -191,7 +190,6 @@ root.render(
 
 ```
 
-
 # 레이아웃 구성
 
 - src/layouts/MainLayout.js
@@ -221,7 +219,6 @@ root.render(
   </React.StrictMode>,
 );
 ```
-
 
 # 메인페이지
 
@@ -243,7 +240,6 @@ root.render(
 - commons/pages/Error.js
 - commons/components/ErrorDisplay.js
 
-
 #스타일링
 
 ## 공통 스타일 : src/index.css
@@ -252,4 +248,3 @@ root.render(
 - 스타일 초기화
 - 기준 폰트 사이즈 : styles/fontsize.js / small, normal, medium, big, extraBig
 - 기준 컬러 : Primary, Secondary, Success, Danger, Warning, Info, Light, Dark
-
