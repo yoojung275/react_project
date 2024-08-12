@@ -1,5 +1,3 @@
-![header](https://capsule-render.vercel.app/api?type=cylinder&color=auto&height=200&text=G9Project&desc=-nl-한국관광공사%20데이터를%20활용한%20이용자%20맞춤형%20여행%20정보%20제공%20사이트&fontColor=d6ace6&fontSize=50&descSize=20&descAlignY=40)
-
 # 설정
 
 - .prettierrc 설정
